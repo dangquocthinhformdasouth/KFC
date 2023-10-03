@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Roboto:wght@500&display=swap');
+.title {
+    font-family: 'Oswald';
+}
+
+.font-menu {
+    font-family: 'Roboto';
+}
+
+.hover-underline-animation {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+
+.hover-underline-animation:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    color: black;
+    background: black;
+    transition: width 0.5s ease 0s, left 0.5s ease 0s;
+    width: 0;
+}
+
+.hover-underline-animation:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.text-footer {
+    color: rgb(100, 100, 100);
+}
+
+.text-footer:hover {
+    color: white;
+}
+
+.dathang {
+    margin-top: 75px;
+    margin-bottom: 0px;
+    height: 50px;
+}
+
+.banner {
+    margin-bottom: 50px;
+}
+
+.title {
+    display: table;
+    margin-bottom: 20px;
+}
+
+.name {
+    display: table-cell;
+    white-space: nowrap;
+}
+
+.hzline {
+    display: table-cell;
+    width: 90%;
+}
+
+hr {
+    margin: 10px;
+    border: 1px solid rgb(120, 120, 120);
+    border-radius: 10px;
+}
+
+.card-dm {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thumbnail-card-img {
+    overflow: hidden;
+}
+
+.card-img {
+    transition-duration: 0.6s;
+}
+
+.card-img:hover {
+    transform: scale(1.1);
+}
+
+.bi {
+    color: #b2b1b1;
+    font-size: 27px;
+    border: 1px solid #888;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.bi:hover {
+    color: white;
+    border: 1px solid #b2b1b1;
+}
+
+.img-icon {
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.lg-bct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-ncp {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+iframe {
+    width: 100%;
+    height: 900px;
+}
+
+.map {
+    position: relative;
+    margin-top: 100px;
+}
+
+.form-map {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.thucdon-swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.danhmuc {
+    text-align: center;
+    font-size: 16px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thucdon-swiper {}
+
+.thucdon-swiper [class^="swiper-button"]::after {
+    content: "";
+}
+
+.dm {
+    margin-top: 20px;
+}
+
+.tendm {
+    text-decoration: none;
+    color: #888;
+}
+
+.tendm:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#myHeader {
+    background-color: white;
+    border-bottom: 1px solid #888;
+    border-top: 1px solid #888;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.sticky {
+    padding-top: 110px;
+}
+
+.product {
+    position: relative;
+    padding: 10px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.prince {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.nuttat,
+.nutmo {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 0px 0px 0px 10px;
+    background-color: white;
+}
+
+.icon-info {
+    font-size: 20px;
+}
+
+.prd-info {
+    display: none;
+    height: 363px;
+}
+
+.chitietprd {
+    margin-bottom: 40px;
+}
+
+.noidung {
+    margin-top: 26px;
+    padding: 26px;
+}
+
+.info-chitietprd {
+    width: 75%;
+    height: 234px;
+    box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    padding: 6px;
+}
+
+.title-info-chitietprd {
+    font-size: 33px;
+    font-weight: bold;
+    font-family: 'Oswald';
+}
+
+.hinh {
+    position: absolute;
+    margin-left: 26px;
+}
+
+.hcn {
+    width: 7px;
+    height: 7px;
+    background-color: rgb(210, 2, 2);
+    padding: 7px;
+    content: "";
+    margin: 4px;
+}
+
+.card-sp {
+    box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.nutxemchitiet {
+    background-color: white;
+    border: none;
+    color: #6b6b6b;
+}
+
+.dieuchinh {
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
+
+.dieuchinh:hover {
+    text-decoration: none;
+}
+
+.banggiohang {
+    box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
